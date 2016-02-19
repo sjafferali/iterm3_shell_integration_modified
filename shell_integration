@@ -166,7 +166,7 @@ if ( [ x"$TERM" != xscreen ] ); then
       # into subshells.
 
       set -o functrace > /dev/null 2>&1
-      shopt -s extdebug > /dev/null 2>&1
+      #shopt -s extdebug > /dev/null 2>&1
 
       # Finally, install the actual traps.
       if ( [ x"$PROMPT_COMMAND" = x ]); then
